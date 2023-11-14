@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="3s"
+        android:id="@+id/txvTime"
+        android:background="#ff0000"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="#ffff00"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <GridView
+        android:columnWidth="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gdvMau"
+        android:layout_below="@+id/txvTime"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/txvDiem"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="66"
+        android:id="@+id/txvDiem"
+        android:background="#00ff00"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="#800080"
+        android:textStyle="bold|italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
